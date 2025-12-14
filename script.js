@@ -2,7 +2,7 @@ const textElement = document.getElementById('typewriter');
 const phrases = [
     "Developer", 
     "Discord Bot Creator", 
-    "Minecraft Server Admin", 
+    "Minecraft Developer", 
     "Java Enthusiast"
 ];
 
