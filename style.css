@@ -1,3 +1,45 @@
+
+.logo-container {
+    margin-bottom: 1.5rem;
+}
+
+.profile-logo {
+    width: 130px;
+    height: 130px;
+    object-fit: cover; 
+    border-radius: 50%; 
+    border: 4px solid var(--primary-red); 
+    box-shadow: 0 0 25px rgba(215, 38, 56, 0.5); 
+    transition: transform 0.3s ease;
+}
+
+.profile-logo:hover {
+    transform: scale(1.05) rotate(5deg);
+}
+
+a.card {
+    text-decoration: none; 
+    cursor: pointer;
+    background-color: var(--bg-card);
+    border: 1px solid #333;
+    border-radius: 12px;
+    padding: 2rem;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+a.card h3 {
+    color: var(--text-main); 
+}
+
+a.card:active {
+    transform: scale(0.98);
+}
+
+
 :root {
     --bg-dark: #0f0f0f;      
     --bg-card: #1a1a1a;      
